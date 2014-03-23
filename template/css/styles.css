@@ -1,0 +1,71 @@
+/* site style */
+h1 {
+  font-size: 32px;
+  margin: 0; }
+
+.page_wrapper {
+  margin: 10px auto;
+  width: 800px;
+  font-size: 16px;
+  line-height: 18px; }
+
+.page_header {
+  background-color: #2973B8;
+  height: 60px;
+  position: relative;
+  line-height: 60px;
+  color: #e1e1e1;
+  padding-left: 10px; }
+  .page_header img {
+    margin: 20px 0 0 20px; }
+
+.page_teaser {
+  text-align: center;
+  padding: 10px 0; }
+
+.job_detail {
+  margin: 0 auto 20px auto; }
+
+.job_detail_text {
+  width: 520px;
+  float: left;
+  color: #666; }
+  .job_detail_text ul {
+    padding-left: 30px; }
+    .job_detail_text ul li {
+      line-height: 20px;
+      padding-right: 10px; }
+
+.job_detail_img {
+  float: right;
+  width: 280px; }
+  .job_detail_img img {
+    max-width: 100%;
+    padding-top: 50px; }
+
+/* 02 CLEARFIX *********** */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
